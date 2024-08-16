@@ -8,7 +8,7 @@ export default defineConfig({
   boolean: true,
   srcDir: './docs',
    base: '/newera-station/',
-  head: [['link', { rel: 'icon', href: 'newera.png' }]],
+  head: [['link', { rel: 'icon', href: '/images/newera.png' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

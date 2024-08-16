@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "NEWERA STSTION"
+  name: "NEWERA STATION"
   tagline: "НЬЮЭРА - ПРАВИЛА УСТАНАВЛИВАЕТЕ ВЫ"
   image:
     src: /images/newera.png
