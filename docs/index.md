@@ -13,7 +13,7 @@ hero:
       text: Начать Игру
       link: quick-starts
     - theme: alt
-      text: Документация
+      text: База Знаний
       link: main
 
 features:
