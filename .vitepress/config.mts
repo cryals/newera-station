@@ -7,6 +7,7 @@ export default defineConfig({
   lang: 'ru-RU',
   boolean: true,
   srcDir: './docs',
+   base: '/newera-station/',
   head: [['link', { rel: 'icon', href: 'newera.png' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
