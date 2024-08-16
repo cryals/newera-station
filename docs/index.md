@@ -6,7 +6,7 @@ hero:
   name: "NEWERA STATION"
   tagline: "НЬЮЭРА - ПРАВИЛА УСТАНАВЛИВАЕТЕ ВЫ"
   image:
-    src: /images/newera.png
+    src: newera.png
     alt: newera
   actions:
     - theme: brand
