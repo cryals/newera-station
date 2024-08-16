@@ -8,7 +8,7 @@ export default defineConfig({
   lang: 'ru-RU',
   srcDir: './docs',
   base: '/newera-station/',
-  head: [['link', { rel: 'icon', href: '/newera.png' }]],
+  head: [['link', { rel: 'icon', href: '/newera-station/newera.png' }]],
   themeConfig: {
     nav: [
       { text: 'Главная', link: '/' },
