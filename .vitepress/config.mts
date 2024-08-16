@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "NEWERA STSTION",
+  title: "NEWERA STATION",
   description: "Space Station 14 Project",
   lang: 'ru-RU',
   boolean: true,
