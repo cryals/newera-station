@@ -1,4 +1,5 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
+import { telegram, gitflic, gitlab, vk, messager, gitverse } from './support/icons.ts';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,8 +8,8 @@ export default defineConfig({
   lang: 'ru-RU',
   boolean: true,
   srcDir: './docs',
-   base: '/newera-station/',
-  head: [['link', { rel: 'icon', href: '/images/newera.png' }]],
+  base: '/newera-station/',
+  head: [['link', { rel: 'icon', href: 'docs/public/images/newera.png' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -28,7 +29,8 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'discord', link: 'https://discord.gg/newera-station' },
-      { icon: 'github', link: 'https://github.com/cryals/newera-station' }
+      { icon: { svg: telegram }, link: 'https://t.me/NEWERA_OFF' },
+      { icon: 'github', link: 'https://github.com/cryals/newera-station' },
     ]
   }
-})
+});
