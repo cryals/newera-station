@@ -27,7 +27,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'discord', link: 'https://discord.gg/newera-station' }
+      { icon: 'discord', link: 'https://discord.gg/newera-station' },
+      { icon: 'github', link: 'https://github.com/cryals/newera-station' }
     ]
   }
 })
