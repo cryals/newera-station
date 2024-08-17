@@ -1,6 +1,6 @@
 # Как начать игру?
 
-## Как же начать игру?
+## :thinking: Как все же начать играть?
 
 1. Скачиваем игру из Steam [скачать](https://store.steampowered.com/app/1255460/Space_Station_14/)
 ![steam](https://i.postimg.cc/qRWgb7Sm/image.png)
