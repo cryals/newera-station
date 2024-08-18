@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress';
 import { telegram } from './support/icons.ts';
+import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -19,7 +20,62 @@ export default defineConfig({
       {
         text: 'Space Station 14',
         items: [
-          { text: 'Начать Игру', link: '/quick-starts' }
+          { text: 'Начать Игру', link: '/quick-starts' },
+          {
+            text: 'Ресурсы',
+            collapsed: true,
+            items: []
+          },
+          {
+            text: 'Основы',
+            collapsed: true,
+            items: []
+          },
+          {
+            text: 'Предметы',
+            collapsed: true,
+            items: []
+          },
+          {
+            text: 'Ведомственные СРП',
+            collapsed: true,
+            items: [{ text: 'СРП командования', link: '/department/command' },]
+          },
+          {
+            text: 'Сервис',
+            collapsed: true,
+            items: []
+          },
+          {
+            text: 'Медицина',
+            collapsed: true,
+            items: []
+          },
+          {
+            text: 'Снабжение',
+            collapsed: true,
+            items: []
+          },
+          {
+            text: 'Инженерия',
+            collapsed: true,
+            items: []
+          },
+          {
+            text: 'Наука',
+            collapsed: true,
+            items: []
+          },
+          {
+            text: 'Безопасность',
+            collapsed: true,
+            items: []
+          },
+          {
+            text: 'Игровые механики',
+            collapsed: true,
+            items: []
+          }
         ]
       }
     ],
@@ -28,5 +84,10 @@ export default defineConfig({
       { icon: { svg: telegram }, link: 'https://t.me/NEWERA_OFF' },
       { icon: 'github', link: 'https://github.com/cryals/newera-station' },
     ]
+  },
+  markdown: {
+    config(md) {
+      md.use(tabsMarkdownPlugin)
+    }
   }
 });
