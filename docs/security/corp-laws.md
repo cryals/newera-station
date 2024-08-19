@@ -140,3 +140,18 @@
 
 
 :::
+
+::: details Test
+
+<details class="custom-details">
+<summary>Тест 1</summary>
+ТЕКСТ ДЛЯ ТЕСТ 1
+</details>
+
+<details class="custom-details">
+<summary>Тест 2</summary>
+ТЕКСТ ДЛЯ ТЕСТ 2
+</details>
+
+
+:::

@@ -147,3 +147,46 @@ img {
     image-rendering: pixelated;
     -ms-interpolation-mode: nearest-neighbor;
 }
+
+.custom-details {
+  padding: 1rem;
+  border: 1px solid var(--vp-c-default-2);
+  border-radius: 0.5rem;
+  background-color: var(--vp-c-default-soft);
+  margin: 0.5rem 0;
+}
+
+.custom-details > summary {
+  cursor: pointer;
+  font-weight: bold;
+  margin: -1rem -1rem 1rem -1rem;
+  padding: 1rem;
+  border-bottom: 1px solid var(--vp-c-default-2);
+  background-color: var(--vp-c-default-3);
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.custom-details[open] > summary {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.custom-details > summary::marker {
+  font-size: 0.75rem;
+  transform: rotate(0deg);
+  transition: transform 0.2s linear;
+}
+
+.custom-details[open] > summary::marker {
+  transform: rotate(90deg);
+}
+
+.custom-details > p {
+  margin: 0;
+  padding: 1rem 0;
+}
+
+/* Optional: For nested details to look slightly indented */
+.custom-details .custom-details {
+  margin-left: 1rem;
+}
