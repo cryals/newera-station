@@ -11,6 +11,9 @@ export default defineConfig({
   base: '/newera-station/',
   head: [['link', { rel: 'icon', href: '/newera-station/newera.png' }]],
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: 'Главная', link: '/' },
       { text: 'База Знаний', link: '/main' },
