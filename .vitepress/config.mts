@@ -72,7 +72,7 @@ export default defineConfig({
           {
             text: 'Безопасность',
             collapsed: true,
-            items: []
+            items: [{ text: 'Корпоративный Закон', link: '/security/corp-laws' },]
           },
           {
             text: 'Игровые механики',
