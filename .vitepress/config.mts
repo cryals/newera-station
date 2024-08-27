@@ -8,8 +8,18 @@ export default defineConfig({
   description: "Space Station 14 Project",
   lang: 'ru-RU',
   srcDir: './docs',
-  base: '/newera-station/',
-  head: [['link', { rel: 'icon', href: '/newera-station/newera.png' }]],
+  base: '/',
+  head: [
+    ['link', { rel: 'icon', href: '/newera-station/newera.png' }],
+    // Добавляем Google Analytics
+    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X' }],
+    ['script', {}, `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BKG62BG33P');
+    `]
+  ],
   themeConfig: {
     nav,
     sidebar,
