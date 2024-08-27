@@ -8,7 +8,7 @@ export default defineConfig({
   description: "Space Station 14 Project",
   lang: 'ru-RU',
   srcDir: './docs',
-  base: '/newera-station/',
+  base: '/',
   head: [['link', { rel: 'icon', href: '/newera-station/newera.png' }]],
   themeConfig: {
     nav,
